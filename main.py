@@ -11,9 +11,9 @@ from docx import Document
 from docxtpl import DocxTemplate
 
 root = Tk()
-filename = os.getcwd() + '/КАРТОЧКА.docx'
+filename = os.getcwd() + '/template.docx'
 lst = []
-new_filename = os.getcwd() + '/ПОЛУЧИЛОСЬ.docx'
+new_filename = os.getcwd() + '/result.docx'
 
 
 def get_table():
